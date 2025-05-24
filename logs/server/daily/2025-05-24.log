@@ -1,0 +1,600 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:11:11.432Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T12:11:14.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:46:03.961Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:46:13.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:46:15.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:46:31.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:51:40.612Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:51:51.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:52:09.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:52:20.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:52:23.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:53:16.325Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T12:53:18.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:53:21.875Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T12:53:24.003Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:53:47.470Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T12:53:49.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T12:53:50.953Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T12:53:53.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:11:35.814Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:11:38.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:23:16.024Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:23:19.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:23:23.359Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:23:25.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:32:22.729Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:32:23.600Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:32:26.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:32:42.345Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:32:44.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:33:08.121Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:33:09.638Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:33:11.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:36:20.170Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:36:22.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:38:26.264Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:38:29.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:41:09.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:41:10.763Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:41:13.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T13:58:05.004Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T13:58:07.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:04:24.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:04:26.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:05:37.803Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:05:40.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:05:43.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:05:46.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:05:48.338Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:05:50.453Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:07:05.119Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:07:08.195Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:07:20.597Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:07:31.203Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:08:06.687Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:09:43.909Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:09:45.572Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:10:31.822Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:10:43.195Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:10:48.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:11:53.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:11:54.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:11:55.808Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:11:58.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:11:59.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:12:04.692Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:12:06.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:12:46.062Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:12:48.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:13:01.679Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:13:04.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:13:07.520Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:13:09.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:13:12.676Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:13:15.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:17:24.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:17:27.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:17:29.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:17:30.472Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:17:33.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:18:08.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:18:09.809Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:18:12.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:18:47.472Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:18:50.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:19:21.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:19:22.860Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:19:24.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:19:39.556Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:19:42.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:22:46.510Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:22:49.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:23:19.487Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:23:21.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:23:27.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:23:29.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:23:30.629Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:23:33.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:32:17.745Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:32:20.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:32:40.029Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:32:42.327Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:37:12.907Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:37:17.341Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:37:50.103Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:38:00.581Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:38:30.020Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:40:02.359Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:40:12.605Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:40:58.530Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:100:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:87:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:41:09.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:44:43.310Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:44:46.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:44:48.119Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:44:50.352Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:44:52.441Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:44:54.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:44:58.132Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:45:00.334Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:101:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:88:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:46:01.783Z"}
+error: 
+    status - 500 
+    message - TypeError: The argument 'encoding' is invalid for data of length 11. Received 'hex'
+    at Decipheriv.update (node:internal/crypto/cipher:166:5)
+    at decrypt (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/utils/encryptor.utils.ts:34:28)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:101:29
+    at Array.map (<anonymous>)
+    at listAccounts (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/controllers/account.controller.ts:88:35)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/express/lib/router/index.js:328:13) 
+    url - /api/v1/accounts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-05-24T14:46:09.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:48:48.549Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:48:51.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-05-24T14:48:56.517Z"}
+info: Connected to the database. {"timestamp":"2025-05-24T14:48:59.250Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 490 (line 11 column 10)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:238:16)
+    at done (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/decrypt 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-05-24T15:36:21.505Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 490 (line 11 column 10)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:238:16)
+    at done (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/account 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-05-24T15:36:33.182Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 490 (line 11 column 10)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:238:16)
+    at done (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/accounts 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-05-24T15:36:36.121Z"}
+info: Server started at undefined:3000/api/v1/ {"timestamp":"2025-05-24T17:29:39.338Z"}
+error: Could not connect to the database. The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string. {"stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.Connection.openUri (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/connection.js:694:11)\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:351:10\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:350:20)\n    at Database.<anonymous> (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:19:22)\n    at Generator.next (<anonymous>)\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:4:12)\n    at Database.initializeDatabase (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:17:57)\n    at App.initializeDatabase (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:53:13)\n    at new App (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:39:10)\n    at Object.<anonymous> (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:83:13)","timestamp":"2025-05-24T17:29:39.345Z"}
+info: Server started at undefined:3000/api/v1/ {"timestamp":"2025-05-24T17:33:45.834Z"}
+error: Could not connect to the database. The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string. {"stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.Connection.openUri (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/connection.js:694:11)\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:351:10\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:350:20)\n    at Database.<anonymous> (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:19:22)\n    at Generator.next (<anonymous>)\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:4:12)\n    at Database.initializeDatabase (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:17:57)\n    at App.initializeDatabase (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:53:13)\n    at new App (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:39:10)\n    at Object.<anonymous> (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:83:13)","timestamp":"2025-05-24T17:33:45.840Z"}
+info: Server started at undefined:3000/api/v1/ {"timestamp":"2025-05-24T17:36:59.986Z"}
+error: Could not connect to the database. The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string. {"stack":"MongooseError: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n    at NativeConnection.Connection.openUri (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/connection.js:694:11)\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:351:10\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/node_modules/mongoose/lib/index.js:350:20)\n    at Database.<anonymous> (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:19:22)\n    at Generator.next (<anonymous>)\n    at /Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:4:12)\n    at Database.initializeDatabase (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/config/database.ts:17:57)\n    at App.initializeDatabase (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:53:13)\n    at new App (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:39:10)\n    at Object.<anonymous> (/Users/graphiccheff/Documents/Learnable/trialsOfRevival/src/index.ts:83:13)","timestamp":"2025-05-24T17:37:00.001Z"}
