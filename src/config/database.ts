@@ -2,23 +2,25 @@ import mongoose from 'mongoose';
 import logger from './logger';
 
 class Database {
-  private DATABASE: string;
+  private MONGO_URI: string;
   private logger;
 
   constructor() {
-    this.DATABASE =
+    this.MONGO_URI =
       process.env.NODE_ENV === 'test'
-        ? process.env.DATABASE_TEST
-        : process.env.DATABASE;
+        ? process.env.MONGO_URI_PROD
+        : process.env.MONGO_URI;
 
     this.logger = logger.logger;
   }
 
   public initializeDatabase = async (): Promise<void> => {
     try {
-      await mongoose.connect(this.DATABASE, {
+      await mongoose.connect(this.MONGO_URI, {
         useNewUrlParser: true,
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
+        retryWrites: true,
+        w: 'majority'
       });
       this.logger.info('Connected to the database.');
     } catch (error) {
