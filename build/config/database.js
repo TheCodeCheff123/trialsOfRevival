@@ -18,9 +18,11 @@ class Database {
     constructor() {
         this.initializeDatabase = () => __awaiter(this, void 0, void 0, function* () {
             try {
-                yield mongoose_1.default.connect(this.DATABASE, {
+                yield mongoose_1.default.connect(this.MONGO_URI, {
                     useNewUrlParser: true,
-                    useUnifiedTopology: true
+                    useUnifiedTopology: true,
+                    retryWrites: true,
+                    w: 'majority'
                 });
                 this.logger.info('Connected to the database.');
             }
@@ -28,10 +30,10 @@ class Database {
                 this.logger.error('Could not connect to the database.', error);
             }
         });
-        this.DATABASE =
+        this.MONGO_URI =
             process.env.NODE_ENV === 'test'
-                ? process.env.DATABASE_TEST
-                : process.env.DATABASE;
+                ? process.env.MONGO_URI_PROD
+                : process.env.MONGO_URI;
         this.logger = logger_1.default.logger;
     }
 }
